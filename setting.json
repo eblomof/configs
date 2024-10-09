@@ -1,0 +1,197 @@
+{
+  "editor.lineHeight": 22, // Set line height for better text spacing
+  "editor.smoothScrolling": true, // Enable smooth scrolling for a fluid navigation experience
+  "editor.cursorSmoothCaretAnimation": "on", // Smooth cursor animations
+  "editor.cursorBlinking": "smooth", // Smooth blinking for the cursor
+
+  // Window Title and Sidebar
+  "window.titleBarStyle": "custom", // Show activity bar on the left for easy navigation
+  "workbench.sideBar.location": "left", // Position sidebar on the left
+
+  // Tabs and Breadcrumbs
+  "workbench.editor.tabSizing": "shrink", // Shrink tabs for better space management
+  "breadcrumbs.enabled": true, // Show breadcrumbs for easy file navigation
+  "editor.renderWhitespace": "boundary", // Show guides for indentation levels
+  "editor.minimap.enabled": true, // Enable minimap for an overview of your file
+
+  // Explorer settings
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+
+  // C# settings
+  "csharp.format.enable": true,
+
+  // Editor settings
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.wordBasedSuggestions": "currentDocument",
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+
+  // File Explorer
+  "explorer.decorations.colors": true, // Color-coded file explorer for visual clarity
+  "explorer.decorations.badges": true, // Show badges for file statuses
+  "explorer.confirmDragAndDrop": false, // Disable confirm dialog on drag and drop
+
+  // Terminal Appearance
+  "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace", // Use a smooth font for terminal
+  "terminal.integrated.fontSize": 14, // Adjust terminal font size for readability
+  "terminal.integrated.cursorBlinking": true, // Enable smooth blinking in terminal
+  "terminal.integrated.smoothScrolling": true, // Enable smooth scrolling in the terminal
+
+  // Editor Enhancements
+  "editor.wordWrap": "on", // Enable word wrapping for better text management
+  "editor.scrollBeyondLastLine": false, // Disable scrolling beyond the last line for a cleaner view
+  "editor.cursorStyle": "line", // Set cursor to a smooth line style
+  "editor.cursorWidth": 2, // Make the cursor width more visible
+  "editor.guides.bracketPairs": "active", // Show active bracket pair guides
+  "editor.autoClosingBrackets": "always", // Always auto-close brackets
+
+  // Panel and Status Bar
+  "workbench.statusBar.visible": true, // Show the status bar
+  "workbench.panel.defaultLocation": "bottom", // Keep the panel at the bottom
+  "workbench.editor.highlightModifiedTabs": true, // Highlight modified tabs for easy identification
+
+  // Smooth Scroll Behavior
+  "window.smoothScrollingWorkaround": true, // Enable smooth scrolling for better performance on some systems
+
+  // Other UI Tweaks
+  "editor.rulers": [80, 120], // Set rulers for line length guidance
+  "editor.cursorSurroundingLines": 3, // Keep surrounding lines visible when navigating
+  "editor.cursorSurroundingLinesStyle": "default", // Adjust line visibility around cursor
+  "editor.selectionHighlight": true, // Highlight text selections clearly
+  "editor.occurrencesHighlight": "singleFile", // Highlight occurrences of selected text
+  "editor.find.autoFindInSelection": "always", // Automatically find in selection for clarity
+
+  // File exclusions
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/*.user": true,
+    "**/*.suo": true
+  },
+  "search.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+
+  // Terminal settings
+  "terminal.integrated.scrollback": 10000,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "mssql.connections": [
+    {
+      "server": "192.168.80.38",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "60186",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "192.168.80.38",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    },
+    {
+      "server": "178.252.176.36,28140",
+      "database": "MIHANBack",
+      "authenticationType": "SqlLogin",
+      "user": "sap",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "Mihan-Back",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    },
+    {
+      "server": "localhost,1433",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "SA",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "DockerSQL",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true
+    },
+    {
+      "server": "sod-sql",
+      "database": "",
+      "authenticationType": "SqlLogin",
+      "user": "acl",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "sod-sql",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    }
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "remote.SSH.remotePlatform": {
+    "my-linux-host": "linux"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ms-mssql.mssql"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ProjectTree.theme": "perfect",
+  "ProjectTree.withComment": true,
+  "ProjectTree.commentDistance": 2,
+  "ProjectTree.loadIgnore": true,
+  "ProjectTree.useDefaultIgnore": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dotnet.codeLens.enableReferencesCodeLens": true,
+  "dotnet.codeLens.enableTestsCodeLens": true,
+  "editor.guides.indentation": true
+}
